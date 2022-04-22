@@ -1,0 +1,6 @@
+flask
+flask_cors
+requests
+py-postgresql>=1.2.2
+pytz
+python-dotenv
