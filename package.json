@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint src",
     "build": "webpack -w --mode=development",
-    "launch": "yarn eslint && yarn build && yarn start"
+    "launch": "yarn eslint && yarn build && yarn start",
+    "server": "py ./python/main.py"
   },
   "browserslist": [
     "last 1 chrome version",

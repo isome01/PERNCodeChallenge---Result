@@ -9,7 +9,7 @@ from server.routes import movies
 # get env variables and such
 env_path = os.path.join(
     os.path.dirname(__file__),
-    './.env'
+    '../.env'
 )
 load_dotenv(env_path)
 
